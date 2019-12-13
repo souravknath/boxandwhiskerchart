@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BoxAndWhiskerComponent } from './box-and-whisker/box-and-whisker.component';
 import { ParentComponent } from './parent/parent.component';
+import { StackbarComponent } from './stackbar/stackbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BoxAndWhiskerComponent,
-    ParentComponent
+    ParentComponent,
+    StackbarComponent
   ],
   imports: [
     BrowserModule,
